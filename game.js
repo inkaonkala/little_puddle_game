@@ -1,4 +1,4 @@
-import { Player } from "./player.js";
+//import { Player } from "./player.js";
 
 const canvas = document.getElementById("game");
 const ctx = canvas.getContext("2d");
@@ -19,6 +19,6 @@ function gameLoopy() {
 	requestAnimationFrame(gameLoopy);
 }
 
-backr.onload = => {
+backr.onload = () => {
 	gameLoopy();
 }
